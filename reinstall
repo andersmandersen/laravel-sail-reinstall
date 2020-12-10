@@ -12,9 +12,9 @@ docker run --rm \
     composer:latest \
     composer install
 
-CYAN='\033[0;36m'
 LIGHT_CYAN='\033[1;36m'
-WHITE='\033[1;37m'
 NC='\033[0m'
 
-echo -e "${WHITE}Composer install done${NC}"
+echo ""
+
+echo -e "${LIGHT_CYAN}Composer install done${NC}"
